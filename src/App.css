@@ -1,0 +1,47 @@
+.HomeBanner{
+    background: url('./assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerH{
+    height: 100vh;
+}
+.buildBtn{
+    color: #452b78;
+    border: 2px solid #452b78;
+    transition: .4s ease;
+}
+.subBtn{
+    color: white;
+    border: 2px solid #452b78;
+    transition: .4s ease;
+}
+.subBtn:hover{
+    background-color: #452b78;
+    color: white;
+}
+.buildBtn:hover{
+    background-color: #452b78;
+    color: white;
+}
+.go{
+    font-size: 16rem;
+    color: white;
+}
+.supportImg{
+    transform: translateX(-220px);
+}
+@media screen and (max-width: 600px) {
+    .go{
+        font-size: 10rem;
+    }
+    .bannerH{
+        height: 60vh;
+    }
+    .supportImg{
+        transform: translateX(0px);
+    }
+}
+.support{
+    cursor:grab;
+}
