@@ -69,3 +69,21 @@
     transform: translate(-50px , -50px);
 
 }
+.serviceBanner{
+    background: url('./assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceDevice{
+    background-color: #452b78;
+}
+.serviceDevice img{
+    transform: translateY(150px);
+}
+.serviceBox{
+    transition: .3s ease;
+    cursor: pointer;
+}
+.serviceBox:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
