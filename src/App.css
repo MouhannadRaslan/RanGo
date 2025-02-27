@@ -45,3 +45,27 @@
 .support{
     cursor:grab;
 }
+.say{
+    cursor:grab;
+}
+.aboutBanner{
+    background: url('./assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamCard{
+    background-color: #ebebeb;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.teamCard:hover{
+    background-color: #452b78;
+    color: white;
+}
+.teamCard:hover a{
+    color: white;
+}
+.teamImg{
+    transform: translate(-50px , -50px);
+
+}

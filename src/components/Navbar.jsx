@@ -5,9 +5,9 @@ function Navbar(){
         <>
             <nav className="navbar navbar-expand-lg ps-5 pe-5 fixed-top" style={{backgroundColor:"rgba(27, 11, 51, 0.9)"}}>
                 <div className="container-fluid">
-                    <a href="" className="navbar-brand">
+                    <Link to="/" className="navbar-brand">
                         <h1 className="text-light" style={{letterSpacing:"3px"}}>Ran<span className="fw-bolder" style={{color:"#ff6b09"}}>GO</span></h1>
-                    </a>
+                    </Link>
                     <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <i class="fa-solid fa-bars-staggered text-light"></i>
                     </button>

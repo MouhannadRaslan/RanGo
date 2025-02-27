@@ -1,0 +1,20 @@
+.say .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .say .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .say .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .say .mySwiper{
+    height: 550px;
+  }
